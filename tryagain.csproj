@@ -79,13 +79,14 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Views\NBAHistory.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -95,7 +96,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\NBAPlayer.cs" />
     <Compile Include="Models\MVP.cs" />
-    <Compile Include="Controllers\PlayerController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

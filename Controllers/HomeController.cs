@@ -7,9 +7,9 @@ using tryagain.Models;
 
 namespace tryagain.Controllers
 {
-    public class PlayerController : Controller
+    public class HomeController : Controller
     {
-        public ActionResult NBAHistory()
+        public ActionResult Index()
         {
             var nbaplayer = new NBAPlayer(){Name = "Gilbert Arenas"};
             return View(nbaplayer);
