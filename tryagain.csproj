@@ -80,6 +80,7 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Additions\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -87,6 +88,7 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Additions\AddVideo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -97,6 +99,8 @@
     <Compile Include="Models\NBAPlayer.cs" />
     <Compile Include="Models\MVP.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\AdditionsController.cs" />
+    <Compile Include="Models\Videos.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
